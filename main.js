@@ -147,7 +147,7 @@ const truthTest3 = () => {
 
 
   if (Boolean(t1) == false && Boolean(t2) == false) {
-    document.getElementById("display-element8").innerHTML = "Both of these are TRUE";
+    document.getElementById("display-element8").innerHTML = "Both of these are false";
   } else {
     document.getElementById("display-element8").innerHTML = "1 of these are not TRUE";
   }
